@@ -23,28 +23,28 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
 
 client.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
 const args = message.content.trim().split(/ +/g);
 const command = args.shift().toLowerCase();
   if ( command === "gc") {
@@ -60,27 +60,27 @@ const command = args.shift().toLowerCase();
   
 //Bot 2//
 client2.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client2.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client2.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
 client2.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "gc") {
@@ -94,27 +94,27 @@ if (command === "gc") {
   });
  //bot 3//
  client3.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client3.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client3.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
 client3.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "gc") {
@@ -129,27 +129,27 @@ if (command === "gc") {
 //bot 4//
 
 client4.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client4.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client4.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
 client4.on('message', message => {
-  if(message.author.id === "311830569975676929" )return;
+  if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "gc") {
@@ -164,7 +164,7 @@ if (command === "gc") {
 
 
 client.on('message', message => {
-  if(message.author.id === "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id === "311830569975676929" ); // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam2') {
     let count = 0;
     let ecount = 0;
@@ -173,13 +173,15 @@ if (message.content === '!spam2') {
         .then(m => {
           count++;
         })
+      
         
       }
     }
+   
 });
 
 client2.on('message', message => {
-  if(message.author.id === "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id === "311830569975676929" ); // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam2') {
     let count = 0;
     let ecount = 0;
@@ -191,10 +193,11 @@ if (message.content === '!spam2') {
         
       }
     }
+    
 });
 
 client3.on('message', message => {
-  if(message.author.id === "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id === "311830569975676929" ); // لا تغير شئ عشان ما تخرب الدنيا
   if (message.content === '!spam2') {
       let count = 0;
       let ecount = 0;
@@ -208,7 +211,7 @@ client3.on('message', message => {
       }
   });
 client4.on('message', message => { 
-  if(message.author.id === "311830569975676929" )return;// لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id === "311830569975676929" ) ;// لا تغير شئ عشان ما تخرب الدنيا
     if (message.content === '!spam2') {
         let count = 0;
         let ecount = 0;
