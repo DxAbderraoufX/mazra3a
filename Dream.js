@@ -4,7 +4,7 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
-const args = message.content.slice(prefix.length).trim().split(/ +/g);
+const args = message.content.trim().split(/ +/g);
 const command = args.shift().toLowerCase();
 console.log("Scrpit By Dream");
 
