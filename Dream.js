@@ -83,7 +83,7 @@ client2.on('message', message => {
   if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc") {
+if (command === "gc2") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
@@ -117,7 +117,7 @@ client3.on('message', message => {
   if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc") {
+if (command === "gc3") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
@@ -152,7 +152,7 @@ client4.on('message', message => {
   if(message.author.id === "311830569975676929" );
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc") {
+if (command === "gc4") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
