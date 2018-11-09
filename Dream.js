@@ -1,5 +1,3 @@
-
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -22,7 +20,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-  if(message.content === '-راتب'){
+  if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
@@ -84,7 +82,7 @@ client4.on('message', message => {
 });
 
 client4.on('message', message => {
-  if(message.content === 'Check Credits){
+  if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
@@ -157,4 +155,11 @@ client4.on('message', message => { // لا تغير شئ عشان ما تخرب 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
 client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
+client4.login(process.env.TOKEN4); 
+
+//client.login("NDMyMTE4OTk4Njg4MjAyNzYz.Dr45Sg.DVGeqOJHA5TimnpoiUlrAhFkGLM");
+//client2.login("NDUwMzY4MTEwNTYyOTAyMDY4.Dr8sQw.5wZq2kgrVqoU52Zt8L16BNnNRkM");
+//client3.login("MzkyNjQ5MjA0MTcxODAwNTc3.Dr9pKQ.QMrq3fvGAGTQOGvZIt0cYsHLtmc");
+//client4.login("NTA4MjY0NjM0ODYwNjk5Njcz.Dr8uPA.twpzLlQ8oUvbM87m0VrhP2I5KaE");
+//client5.login("MjY4MzAzNzgyNzg4NTk1NzEz.DpqJcg._Twg-3-NmIb2chl-nHlagNW0GXA");
+
