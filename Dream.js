@@ -4,8 +4,7 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
-const args = message.content.trim().split(/ +/g);
-const command = args.shift().toLowerCase();
+
 console.log("Scrpit By Dream");
 
 client.on('ready', () => {
@@ -22,6 +21,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
+
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
@@ -39,14 +39,20 @@ client.on('message', message => {
   }
 });
 
-if (command === "give credits") {
+client.on('message', message => {
+const args = message.content.trim().split(/ +/g);
+const command = args.shift().toLowerCase();
+  if ( command === "give credits") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
+
   if (command === "say") {
     let thingie = args[0]; 
     message.channel.send(`${thingie}`);
     }
+  });
+  
 //Bot 2//
 client2.on('message', message => {
   if(message.content === 'Collect Dailies'){
@@ -65,6 +71,9 @@ client2.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+client.on('message', message => {
+  const args = message.content.trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
 if (command === "give credits") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
@@ -73,6 +82,7 @@ if (command === "give credits") {
     let thingie = args[0]; 
     message.channel.send(`${thingie}`);
     }
+  });
  //bot 3//
  client3.on('message', message => {
   if(message.content === 'Collect Dailies'){
@@ -91,6 +101,9 @@ client3.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+client.on('message', message => {
+  const args = message.content.trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
 if (command === "give credits") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
@@ -99,7 +112,7 @@ if (command === "give credits") {
     let thingie = args[0]; 
     message.channel.send(`${thingie}`);
     }
-
+  });
 //bot 4//
 
 client4.on('message', message => {
@@ -119,6 +132,9 @@ client4.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+client.on('message', message => {
+  const args = message.content.trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
 if (command === "give credits") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
@@ -127,7 +143,7 @@ if (command === "give credits") {
     let thingie = args[0]; 
     message.channel.send(`${thingie}`);
     }
-
+  });
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
@@ -187,13 +203,13 @@ client4.on('message', message => { // لا تغير شئ عشان ما تخرب 
 
 
 
-client.login(process.env.TOKEN);// لا تغير فيها شيء
-client2.login(process.env.TOKEN2);// لا تغير فيها شيء
-client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4); 
+//client.login(process.env.TOKEN);// لا تغير فيها شيء
+//client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+//client3.login(process.env.TOKEN3);
+//client4.login(process.env.TOKEN4); 
 
-//client.login("NDMyMTE4OTk4Njg4MjAyNzYz.Dr45Sg.DVGeqOJHA5TimnpoiUlrAhFkGLM");
-//client2.login("NDUwMzY4MTEwNTYyOTAyMDY4.Dr8sQw.5wZq2kgrVqoU52Zt8L16BNnNRkM");
-//client3.login("MzkyNjQ5MjA0MTcxODAwNTc3.Dr9pKQ.QMrq3fvGAGTQOGvZIt0cYsHLtmc");
-//client4.login("NTA4MjY0NjM0ODYwNjk5Njcz.Dr8uPA.twpzLlQ8oUvbM87m0VrhP2I5KaE");
-//client5.login("MjY4MzAzNzgyNzg4NTk1NzEz.DpqJcg._Twg-3-NmIb2chl-nHlagNW0GXA");
+client.login("NDMyMTE4OTk4Njg4MjAyNzYz.Dr45Sg.DVGeqOJHA5TimnpoiUlrAhFkGLM");
+client2.login("NDUwMzY4MTEwNTYyOTAyMDY4.Dr8sQw.5wZq2kgrVqoU52Zt8L16BNnNRkM");
+client3.login("MzkyNjQ5MjA0MTcxODAwNTc3.Dr9pKQ.QMrq3fvGAGTQOGvZIt0cYsHLtmc");
+client4.login("NTA4MjY0NjM0ODYwNjk5Njcz.Dr8uPA.twpzLlQ8oUvbM87m0VrhP2I5KaE");
+client5.login("MjY4MzAzNzgyNzg4NTk1NzEz.DpqJcg._Twg-3-NmIb2chl-nHlagNW0GXA");
