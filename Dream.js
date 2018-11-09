@@ -71,7 +71,7 @@ client2.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
-client.on('message', message => {
+client2.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "give credits") {
@@ -101,7 +101,7 @@ client3.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
-client.on('message', message => {
+client3.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "give credits") {
@@ -132,7 +132,7 @@ client4.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
-client.on('message', message => {
+client4.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 if (command === "give credits") {
