@@ -28,49 +28,49 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-  if(message.content === '-مبلغ'){
+  if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client.on('message', message => {
-  if(message.content === '-ريب'){
+  if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
 
 client2.on('message', message => {
-  if(message.content === '-راتب'){
+  if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client2.on('message', message => {
-  if(message.content === '-مبلغ'){
+  if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client2.on('message', message => {
-  if(message.content === '-ريب'){
+  if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
  //bot 3//
  client3.on('message', message => {
-  if(message.content === '-راتب'){
+  if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client3.on('message', message => {
-  if(message.content === '-مبلغ'){
+  if(message.content === 'Check Credits'){
       message.channel.send('#credits')
   }
 });
 
 client3.on('message', message => {
-  if(message.content === '-ريب'){
+  if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
@@ -78,19 +78,19 @@ client3.on('message', message => {
 //bot 4//
 
 client4.on('message', message => {
-  if(message.content === '-راتب'){
+  if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
   }
 });
 
 client4.on('message', message => {
-  if(message.content === '-مبلغ'){
+  if(message.content === 'Check Credits){
       message.channel.send('#credits')
   }
 });
 
 client4.on('message', message => {
-  if(message.content === '-ريب'){
+  if(message.content === 'Rep Me'){
       message.channel.send('#rep <@311830569975676929>')
   }
 });
