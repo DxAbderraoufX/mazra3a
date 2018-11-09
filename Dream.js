@@ -4,6 +4,8 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
+const args = message.content.slice(prefix.length).trim().split(/ +/g);
+const command = args.shift().toLowerCase();
 console.log("Scrpit By Dream");
 
 client.on('ready', () => {
@@ -37,6 +39,15 @@ client.on('message', message => {
   }
 });
 
+if (command === "give credits") {
+  let credits = args[0]; 
+  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
+  }
+  if (command === "say") {
+    let thingie = args[0]; 
+    message.channel.send(`${thingie}`);
+    }
+//Bot 2//
 client2.on('message', message => {
   if(message.content === 'Collect Dailies'){
       message.channel.send('#daily')
@@ -54,6 +65,14 @@ client2.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+if (command === "give credits") {
+  let credits = args[0]; 
+  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
+  }
+  if (command === "say") {
+    let thingie = args[0]; 
+    message.channel.send(`${thingie}`);
+    }
  //bot 3//
  client3.on('message', message => {
   if(message.content === 'Collect Dailies'){
@@ -72,6 +91,14 @@ client3.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+if (command === "give credits") {
+  let credits = args[0]; 
+  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
+  }
+  if (command === "say") {
+    let thingie = args[0]; 
+    message.channel.send(`${thingie}`);
+    }
 
 //bot 4//
 
@@ -92,6 +119,14 @@ client4.on('message', message => {
       message.channel.send('#rep <@311830569975676929>')
   }
 });
+if (command === "give credits") {
+  let credits = args[0]; 
+  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
+  }
+  if (command === "say") {
+    let thingie = args[0]; 
+    message.channel.send(`${thingie}`);
+    }
 
 
 
@@ -162,4 +197,3 @@ client4.login(process.env.TOKEN4);
 //client3.login("MzkyNjQ5MjA0MTcxODAwNTc3.Dr9pKQ.QMrq3fvGAGTQOGvZIt0cYsHLtmc");
 //client4.login("NTA4MjY0NjM0ODYwNjk5Njcz.Dr8uPA.twpzLlQ8oUvbM87m0VrhP2I5KaE");
 //client5.login("MjY4MzAzNzgyNzg4NTk1NzEz.DpqJcg._Twg-3-NmIb2chl-nHlagNW0GXA");
-
