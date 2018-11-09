@@ -42,7 +42,7 @@ client.on('message', message => {
 client.on('message', message => {
 const args = message.content.trim().split(/ +/g);
 const command = args.shift().toLowerCase();
-  if ( command === "give credits") {
+  if ( command === "gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
@@ -74,7 +74,7 @@ client2.on('message', message => {
 client2.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "give credits") {
+if (command === "gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
@@ -104,7 +104,7 @@ client3.on('message', message => {
 client3.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "give credits") {
+if (command === "gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
@@ -135,7 +135,7 @@ client4.on('message', message => {
 client4.on('message', message => {
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "give credits") {
+if (command === "gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@311830569975676929> ${credits}`);
   }
