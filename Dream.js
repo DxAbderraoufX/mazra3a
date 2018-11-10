@@ -220,20 +220,19 @@ client3.on('message', message => {
     let x = 90000
     }
   });
-client4.on('message', message => { 
-  if(message.author.id === "311830569975676929" )return;// لا تغير شئ عشان ما تخرب الدنيا
-    if (message.content === '!spam2') {
-        let count = 0;
-        let ecount = 0;
-        for(let x = 0; x < 90000; x++) {
-          message.channel.send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-            .then(m => {
-              count++;
-            })
-            
-          }
+client4.on('message', message => {
+  if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if (message.content === '!spam2') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
         }
-      });
+      }
 client5.on('message', message => { 
   let channel = message.channel;
   let roles = message.guild.roles;
