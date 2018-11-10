@@ -221,7 +221,7 @@ client3.on('message', message => {
     }
   });
 client4.on('message', message => { 
-  if(message.author.id === "311830569975676929" ) ;// لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id === "311830569975676929" )return;// لا تغير شئ عشان ما تخرب الدنيا
     if (message.content === '!spam2') {
         let count = 0;
         let ecount = 0;
@@ -233,15 +233,24 @@ client4.on('message', message => {
             
           }
         }
-        if(message.author.id !== "311830569975676929" )return; 
+      });
+client5.on('message', message => { 
+  if(message.author.id === "311830569975676929" )return;
     if (message.content === '!stop') {
-    let x = 90000
-    }
-    });
+      
+      channel.overwritePermissions(
+      ds,
+         { 'SEND_MESSAGES': false },
+                
+                
+      )
+     }
+  });
 
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
 client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4); 
+client4.login(process.env.TOKEN4);
+client4.login(process.env.TOKEN5);
