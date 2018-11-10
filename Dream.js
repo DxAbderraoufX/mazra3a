@@ -239,7 +239,7 @@ client5.on('message', message => {
     if (message.content === '!stop') {
       
       channel.overwritePermissions(
-      ds,
+      Arrans Bot,
          { 'SEND_MESSAGES': false },
                 
                 
@@ -253,4 +253,4 @@ client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
 client3.login(process.env.TOKEN3);
 client4.login(process.env.TOKEN4);
-client4.login(process.env.TOKEN5);
+client5.login(process.env.TOKEN5);
