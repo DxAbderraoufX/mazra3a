@@ -182,6 +182,11 @@ if (message.content === '!spam2') {
     let x = 90000
     }
 });
+let channel =     client.channels.get("510516173843202050")
+setInterval(function() {
+channel.send(`====================================`);
+}, 25)
+})
 
 client2.on('message', message => {
   if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
@@ -201,6 +206,11 @@ if (message.content === '!spam2') {
     let x = 90000
     }
 });
+let channel =     client2.channels.get("510516173843202050")
+setInterval(function() {
+channel.send(`====================================`);
+}, 25)
+})
 
 client3.on('message', message => {
   if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
@@ -220,6 +230,12 @@ client3.on('message', message => {
     let x = 90000
     }
   });
+let channel =     client3.channels.get("510516173843202050")
+setInterval(function() {
+channel.send(`====================================`);
+}, 25)
+})
+
   client4.on('message', message => {
     if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
     if (message.content === '!spam2') {
@@ -235,6 +251,12 @@ client3.on('message', message => {
         }
         
     });
+let channel =     client4.channels.get("510516173843202050")
+setInterval(function() {
+channel.send(`====================================`);
+}, 25)
+})
+
 client5.on('message', message => { 
   let channel = message.channel;
   let roles = message.guild.roles;
