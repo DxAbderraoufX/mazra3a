@@ -265,7 +265,16 @@ client5.on('message', message => {
       )
      }
   });
-
+client5.on('message', function(message) {
+    // Now, you can use the message variable inside
+    if (message.content === "$loop") { 
+        var interval = setInterval (function () {
+            // use the message's channel (TextChannel) to send a new message
+            message.channel.send("!spam2")
+            .catch(console.error); // add error handling here
+        }, 1 * 15000); 
+    }
+});
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
