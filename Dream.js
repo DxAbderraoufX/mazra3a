@@ -90,8 +90,9 @@ if (command === "gc2") {
     message.channel.send(`${thingie}`);
     }
   });
- //bot 3//
  
+
+
 client.on('message', message => {
  
 if (message.content === '!spam2') {
@@ -131,25 +132,7 @@ if (message.content === '!spam2') {
     }
 });
 
-client3.on('message', message => {
-   // لا تغير شئ عشان ما تخرب الدنيا
-  if (message.content === '!spam2') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-      if(message.author.id !== "311830569975676929" )return; 
-    if (message.content === '!stop') {
-    let x = 90000
-    }
-  });
-  
 
+ 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
