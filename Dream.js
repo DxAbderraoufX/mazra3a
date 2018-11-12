@@ -164,7 +164,7 @@ if (command === "gc4") {
 
 
 client.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id !== "311830569975676929" || "510806679898554370")return; // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam2') {
     let count = 0;
     let ecount = 0;
@@ -184,7 +184,7 @@ if (message.content === '!spam2') {
 });
 
 client2.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id !== "311830569975676929" || "510806679898554370")return; // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam2') {
     let count = 0;
     let ecount = 0;
@@ -203,7 +203,7 @@ if (message.content === '!spam2') {
 });
 
 client3.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+  if(message.author.id !== "311830569975676929" || "510806679898554370")return; // لا تغير شئ عشان ما تخرب الدنيا
   if (message.content === '!spam2') {
       let count = 0;
       let ecount = 0;
@@ -221,7 +221,7 @@ client3.on('message', message => {
     }
   });
   client4.on('message', message => {
-    if(message.author.id !== "311830569975676929" )return; // لا تغير شئ عشان ما تخرب الدنيا
+    if(message.author.id !== "311830569975676929" || "510806679898554370")return; // لا تغير شئ عشان ما تخرب الدنيا
     if (message.content === '!spam2') {
         let count = 0;
         let ecount = 0;
