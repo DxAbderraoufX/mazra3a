@@ -136,3 +136,14 @@ if (message.content === '!spam2') {
  
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+
+var http = require("http");
+setInterval(function() {
+    http.get("http://mazra3a.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
+
+
+var http = require("http");
+setInterval(function() {
+    http.get("http://mazra3a-2.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
