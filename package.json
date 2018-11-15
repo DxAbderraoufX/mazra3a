@@ -4,7 +4,7 @@
   "description": "My first bot ever !!!",
   "main": "Dream.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Dream.js"
   },
   "author": "No.Body",
   "license": "ISC",
