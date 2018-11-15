@@ -1,2 +1,3 @@
 worker: node Dream.js
-web: bundle exec rails server -p $PORT
+web: app.listen(process.env.PORT || 3000);
+
