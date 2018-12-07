@@ -481,7 +481,7 @@ LOka.on('guildMemberAdd', member => {
 LOka.login("TOKEN1")
  
 client.login(process.env.TOKEN);// لا تغير فيها شيء
-client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+لا تغير فيها شيء
 
 var http = require("http");
 setInterval(function() {
