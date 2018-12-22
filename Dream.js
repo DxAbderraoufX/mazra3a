@@ -53,7 +53,7 @@ message.channel.send(`${thingie}`);
  }
 });
 client2.on('message', message => {
-    if (command === "Collect Dailies")  {
+    if (message.content.startsWith("Collect Dailies")) {
         message.channel.send('#daily')
     }
 
