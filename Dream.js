@@ -2,29 +2,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
-const client4 = new Discord.Client();
-const client5 = new Discord.Client();
-const client6 = new Discord.Client();
-const client7 = new Discord.Client();
-const client8 = new Discord.Client();
-const client9 = new Discord.Client();
-const client10 = new Discord.Client();
 
 
 console.log("Scrpit By Dream");
 
 client.on('ready', () => {
-  console.log(`----------------`);
-  console.log(`Credit Farmm - Script By : Vechx `);
-  console.log(`----------------`);
-  console.log(`Loadinng`);
-  console.log(`Loadinng.`);
-  console.log(`Loadinng..`);
-  console.log(`Loadinng...`);
-  console.log(`This Bots Online ' `);
- console.log(`----------------`);
-
-
+  console.log(`Online !`);
+ 
 });
 
 //Bot 1//
@@ -137,42 +121,12 @@ client3.on('message', message => {
      }
      
  });
-client4.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client4.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- });
+
 
  
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
-client5.login(process.env.TOKEN5);
-client6.login(process.env.TOKEN6);
-client7.login(process.env.TOKEN7);
-client8.login(process.env.TOKEN8);
-client9.login(process.env.TOKEN9);
-client10.login(process.env.TOKEN10);
+
 // لا تغير فيها شيء
 
-var http = require("http");
-setInterval(function() {
-    http.get("http://mazra3a.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
-
-
-var http = require("http");
-setInterval(function() {
-    http.get("http://mazra3a-2.herokuapp.com");
-}, 300000); // every 5 minutes (300000)
