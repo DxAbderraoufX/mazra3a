@@ -93,7 +93,7 @@ client3.on('message', message => {
 
 client.on('message', message => {
  
-if (message.content === '!spam2') {
+if (message.content === '!start') {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
