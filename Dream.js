@@ -16,11 +16,11 @@ client.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
     const args = message.content.trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-  if (command === "<@"+client.id+"> gc") {
+  if (command === "<@432118998688202763> gc") {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-    if (command ==="<@"+client.id+">say") {
+    if (command ==="<@432118998688202763> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
@@ -37,11 +37,11 @@ client2.on('message', message => {
   if(message.author.id !== "510806679898554370" )return;
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "<@"+client2.id+"> gc") {
+if (command === "<@450368110562902068> gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@510806679898554370> ${credits}`);
   }
-  if (command ==="<@"+client2.id+">say") {
+  if (command ==="<@450368110562902068> say") {
     let thingie = args[0]; 
 message.channel.send(`${thingie}`);
     }
@@ -57,11 +57,11 @@ client3.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
     const args = message.content.trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-  if (command === "<@"+client3.id+"> gc") {
+  if (command === "<@392649204171800577> gc") {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-    if (command ==="<@"+client3.id+">say") {
+    if (command ==="<@392649204171800577> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
