@@ -56,7 +56,8 @@ client2.on('message', message => {
     if (command === "Collect Dailies")  {
         message.channel.send('#daily')
     }
-}
+
+});
 //Bot 3//
 client3.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
