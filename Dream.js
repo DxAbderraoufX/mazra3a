@@ -113,7 +113,7 @@ if (message.content === '!start') {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
-        client.channels.get("526013604919640065").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        client2.channels.get("526013604919640065").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
         .then(m => {
           count++;
         })
@@ -128,7 +128,7 @@ client3.on('message', message => {
      let count = 0;
      let ecount = 0;
      for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+         client3.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
          .then(m => {
            count++;
          })
@@ -143,82 +143,7 @@ client4.on('message', message => {
      let count = 0;
      let ecount = 0;
      for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- });
-client5.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013698435842048").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- }); 
- client6.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013698435842048").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- });
- client7.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013726495735809").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- });
- client8.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013726495735809").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-         .then(m => {
-           count++;
-         })
-         
-       }
-     }
-     
- });
- client9.on('message', message => {
-    // لا تغير شئ عشان ما تخرب الدنيا
- if (message.content === '!start') {
-     let count = 0;
-     let ecount = 0;
-     for(let x = 0; x < 90000; x++) {
-         client.channels.get("526013784528257024").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+         client4.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
          .then(m => {
            count++;
          })
