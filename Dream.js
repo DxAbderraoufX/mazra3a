@@ -20,11 +20,11 @@ client.on('message', message => {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-     if (command ==="<@432118998688202763> say") {
+    if (command ==="<@432118998688202763> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
-            if (command ==="Check Credits")  {
+   if (command ==="Check Credits")  {
       message.channel.send('#credits')
    }
     if (command === "Collect Dailies")  {
@@ -41,35 +41,41 @@ if (command === "<@450368110562902068> gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@510806679898554370> ${credits}`);
   }
-   if (command ==="<@450368110562902068> say") {
+  if (command ==="<@450368110562902068> say") {
     let thingie = args[0]; 
 message.channel.send(`${thingie}`);
     }
-     if (command ==="Check Credits")  {
+ if (command ==="Check Credits")  {
     message.channel.send('#credits')
  }
   if (command === "Collect Dailies")  {
     message.channel.send('#daily')
- }   
+ }
 });
-
+client2.on('message', message => {
+    if (message.content.startsWith("Collect Dailies")) {
+        message.channel.send('#daily')
+ 
+    }
+    
+});
 //Bot 3//
 client3.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
-const args = message.content.trim().split(/ +/g);
-const command = args.shift().toLowerCase();
- if (command === "<@392649204171800577> gc") {
+    const args = message.content.trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+  if (command === "<@392649204171800577> gc") {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-     if (command ==="<@392649204171800577> say") {
+    if (command ==="<@392649204171800577> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
-    if (command ==="Check Credits")  {
+   if (command ==="Check Credits")  {
       message.channel.send('#credits')
    }
-     if (command === "Collect Dailies")  {
+    if (command === "Collect Dailies")  {
       message.channel.send('#daily')
    }
   });
@@ -77,6 +83,8 @@ const command = args.shift().toLowerCase();
 
 
 client.on('message', message => {
+ 
+if (message.content === '!start') {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
@@ -89,10 +97,10 @@ client.on('message', message => {
       }
     }
     
-);
+});
 client2.on('message', message => {
    // لا تغير شئ عشان ما تخرب الدنيا
-
+if (message.content === '!start') {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
@@ -104,10 +112,10 @@ client2.on('message', message => {
       }
     }
     
-);
+});
 client3.on('message', message => {
     // لا تغير شئ عشان ما تخرب الدنيا
- 
+ if (message.content === '!start') {
      let count = 0;
      let ecount = 0;
      for(let x = 0; x < 90000; x++) {
@@ -119,7 +127,7 @@ client3.on('message', message => {
        }
      }
      
- );
+ });
 
 
  
