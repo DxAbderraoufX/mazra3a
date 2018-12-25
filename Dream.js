@@ -77,8 +77,6 @@ const command = args.shift().toLowerCase();
 
 
 client.on('message', message => {
- 
- if (1 + 2 === 3) {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
@@ -91,10 +89,10 @@ client.on('message', message => {
       }
     }
     
-});
+);
 client2.on('message', message => {
    // لا تغير شئ عشان ما تخرب الدنيا
- if (1 + 2 === 3) {
+
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
@@ -106,10 +104,10 @@ client2.on('message', message => {
       }
     }
     
-});
+);
 client3.on('message', message => {
     // لا تغير شئ عشان ما تخرب الدنيا
- if (1 + 2 === 3) {
+ 
      let count = 0;
      let ecount = 0;
      for(let x = 0; x < 90000; x++) {
@@ -121,7 +119,7 @@ client3.on('message', message => {
        }
      }
      
- });
+ );
 
 
  
