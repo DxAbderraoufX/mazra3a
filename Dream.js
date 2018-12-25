@@ -20,14 +20,14 @@ client.on('message', message => {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-    else if (command ==="<@432118998688202763> say") {
+     if (command ==="<@432118998688202763> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
-           else if (command ==="Check Credits")  {
+            if (command ==="Check Credits")  {
       message.channel.send('#credits')
    }
-   else if (command === "Collect Dailies")  {
+    if (command === "Collect Dailies")  {
       message.channel.send('#daily')
    }
   });
@@ -41,14 +41,14 @@ if (command === "<@450368110562902068> gc") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@510806679898554370> ${credits}`);
   }
-  else if (command ==="<@450368110562902068> say") {
+   if (command ==="<@450368110562902068> say") {
     let thingie = args[0]; 
 message.channel.send(`${thingie}`);
     }
-    else if (command ==="Check Credits")  {
+     if (command ==="Check Credits")  {
     message.channel.send('#credits')
  }
- else if (command === "Collect Dailies")  {
+  if (command === "Collect Dailies")  {
     message.channel.send('#daily')
  }   
 });
@@ -62,14 +62,14 @@ const command = args.shift().toLowerCase();
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
     }
-    else if (command ==="<@392649204171800577> say") {
+     if (command ==="<@392649204171800577> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
       }
-   else if (command ==="Check Credits")  {
+    if (command ==="Check Credits")  {
       message.channel.send('#credits')
    }
-   else  if (command === "Collect Dailies")  {
+     if (command === "Collect Dailies")  {
       message.channel.send('#daily')
    }
   });
