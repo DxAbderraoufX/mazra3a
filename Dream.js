@@ -1,88 +1,90 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
-const client2 = new Discord.Client();
-const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
+const client7 = new Discord.Client();
 
 
 console.log("Scrpit By Dream");
 
-client.on('ready', () => {
+client4.on('ready', () => {
   console.log(`Online !`);
  
 });
 
-//Bot 1//
-client.on('message', message => {
+//Bot 4//
+client4.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
     const args = message.content.trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-  if (command === "<@432118998688202763> gc") {
+  if (command === "<@508264634860699673> gc") {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
-    }
-  else  if (command ==="<@432118998688202763> say") {
+    } else
+    if (command ==="<@508264634860699673> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
-      }
-  else if (command ==="Check Credits")  {
+      } else 
+   if (command ==="Check Credits")  {
       message.channel.send('#credits')
-   }
-   else if (command === "Collect Dailies")  {
+   } else 
+    if (command === "Collect Dailies")  {
       message.channel.send('#daily')
    }
   });
   
-//Bot 2//
-client2.on('message', message => {
-  if(message.author.id !== "510806679898554370" )return;
-  const args = message.content.trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-if (command === "<@450368110562902068> gc") {
-  let credits = args[0]; 
-  message.channel.send(`#credits  <@510806679898554370> ${credits}`);
-  }
-else  if (command ==="<@450368110562902068> say") {
-    let thingie = args[0]; 
-message.channel.send(`${thingie}`);
-    }
- else if (command ==="Check Credits")  {
-    message.channel.send('#credits')
- }
- else if (command === "Collect Dailies")  {
-    message.channel.send('#daily')
- }
-});
 
-//Bot 3//
-client3.on('message', message => {
+//Bot 6//
+client6.on('message', message => {
     if(message.author.id !== "510806679898554370" )return;
     const args = message.content.trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-  if (command === "<@392649204171800577> gc") {
+  if (command === "<@512717747856080897> gc") {
     let credits = args[0]; 
     message.channel.send(`#credits  <@510806679898554370> ${credits}`);
-    }
-  else   if (command ==="<@392649204171800577> say") {
+    } else 
+    if (command ==="<@512717747856080897> say") {
       let thingie = args[0]; 
   message.channel.send(`${thingie}`);
-      }
-  else  if (command ==="Check Credits")  {
+      } else 
+   if (command ==="Check Credits")  {
       message.channel.send('#credits')
-   }
-    else if (command === "Collect Dailies")  {
+   } else
+    if (command === "Collect Dailies")  {
       message.channel.send('#daily')
    }
   });
- 
+
+  //Bot 7//
+
+  client7.on('message', message => {
+    if(message.author.id !== "510806679898554370" )return;
+    const args = message.content.trim().split(/ +/g);
+    const command = args.shift().toLowerCase();
+  if (command === "<@512718328977031169> gc") {
+    let credits = args[0]; 
+    message.channel.send(`#credits  <@510806679898554370> ${credits}`);
+    } else
+    if (command ==="<@512718328977031169> say") {
+      let thingie = args[0]; 
+  message.channel.send(`${thingie}`);
+      } else
+   if (command ==="Check Credits")  {
+      message.channel.send('#credits')
+   } else 
+    if (command === "Collect Dailies")  {
+      message.channel.send('#daily')
+   }
+  });
 
 
-client.on('message', message => {
+client4.on('message', message => {
  
 if (message.content === '!start') {
     let count = 0;
     let ecount = 0;
     for(let x = 0; x < 90000; x++) {
-        client.channels.get("526013604919640065").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        client4.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
         .then(m => {
           count++;
         })
@@ -92,28 +94,14 @@ if (message.content === '!start') {
     }
     
 });
-client2.on('message', message => {
-   // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!start') {
-    let count = 0;
-    let ecount = 0;
-    for(let x = 0; x < 90000; x++) {
-        client2.channels.get("526013604919640065").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-        .then(m => {
-          count++;
-        })
-        
-      }
-    }
-    
-});
-client3.on('message', message => {
+
+client6.on('message', message => {
     // لا تغير شئ عشان ما تخرب الدنيا
  if (message.content === '!start') {
      let count = 0;
      let ecount = 0;
      for(let x = 0; x < 90000; x++) {
-         client3.channels.get("526013675732205579").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+         client6.channels.get("526013698435842048").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
          .then(m => {
            count++;
          })
@@ -122,12 +110,40 @@ client3.on('message', message => {
      }
      
  });
+client7.on('message', message => {
+    // لا تغير شئ عشان ما تخرب الدنيا
+ if (message.content === '!start') {
+     let count = 0;
+     let ecount = 0;
+     for(let x = 0; x < 90000; x++) {
+         client7.channels.get("526013698435842048").send(`**Credit Spam , Frame , Credit By Vechx , Farm Credit By Vechx, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+         .then(m => {
+           count++;
+         })
+         
+       }
+     }
+     
+ });
+ client5.on('message', message => {
+  // لا تغير شئ عشان ما تخرب الدنيا
+
+    var interval = setInterval (function () {
+        // use the message's channel (TextChannel) to send a new message
+        client5.channels.get("526039937804664834").send("!start")
+        .catch(console.error); // add error handling here
+    }, 1 * 1800000); 
+}
+});
 
 
  
-client.login(process.env.TOKEN);// لا تغير فيها شيء
-client2.login(process.env.TOKEN2);
-client3.login(process.env.TOKEN3);
+client4.login(process.env.TOKEN4);// لا تغير فيها شيء
+client5.login(process.env.TOKEN5);
+client6.login(process.env.TOKEN6);
+client7.login(process.env.TOKEN7);
+
+
 
 // لا تغير فيها شيء
 
